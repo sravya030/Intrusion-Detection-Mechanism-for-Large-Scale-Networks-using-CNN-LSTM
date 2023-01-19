@@ -7,3 +7,6 @@ model is trained using KDD Cup’99 dataset. The confusion matrix determines the
 
 # CNN-LSTM (hybrid model)
 ![image](https://user-images.githubusercontent.com/75250067/213447299-a7eebb11-8e68-4f5a-928c-6372740d5fa1.png)
+Each piece of data in these datasets contains 42 features, 38 of which are numerical features, three of which are symbolic features, and one of which is a label.
+###The Data Preprocessing involves 3 steps
+
