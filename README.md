@@ -10,7 +10,9 @@ model is trained using KDD Cup’99 dataset. The confusion matrix determines the
 Each piece of data in these datasets contains 42 features, 38 of which are numerical features, three of which are symbolic features, and one of which is a label.
 
 <h3>The Data Preprocessing involves 3 steps</h3>
-1. Numerical and one hot coding
+
+1. Numerical and one hot coding: 
 The main features that require numerical and one-hot processing are the protocol_type, service, and flag features in these datasets. Protocol_type has three attributes, namely the transmission control protocol (TCP), user datagram protocol (UDP), and Internet control message protocol (ICMP). After numerical and one-hot processing, they can respectively be represented by the 1×3 dimensions vectors (0,0,1),(0,1,0), and (1,0,0).
+
 3. Normalization
 4. Transforming the Standardized data into Image format
